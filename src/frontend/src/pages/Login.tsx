@@ -32,7 +32,7 @@ export const Login: React.FC = () => {
           </div>
           <div className="flex items-center justify-center gap-2">
             <span className="text-xs font-mono font-bold tracking-widest px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-slate-300">
-              SIH26189
+              Head Hunters
             </span>
             <span className="text-xs font-mono text-blue-400 tracking-wider">
               INVESTIGATOR WORKSPACE

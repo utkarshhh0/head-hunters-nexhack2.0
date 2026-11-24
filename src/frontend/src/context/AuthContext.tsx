@@ -17,7 +17,7 @@ interface AuthContextType {
   logout: () => void;
 }
 
-const STORAGE_KEY = 'sih26189_investigator_session';
+const STORAGE_KEY = 'head-hunters_investigator_session';
 
 const DEFAULT_DEMO_SESSION: InvestigatorSession = {
   badgeId: 'DEMO-USER',

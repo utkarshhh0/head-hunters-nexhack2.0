@@ -20,7 +20,7 @@ const FRONTEND_DIR = resolve('src/frontend');
 const DIST_DIR = join(FRONTEND_DIR, 'dist');
 
 console.log('================================================================');
-console.log('SIH26189 — Phase 6B.1 Investigation & Entity Intelligence Verification');
+console.log('Head Hunters — Phase 6B.1 Investigation & Entity Intelligence Verification');
 console.log('================================================================\n');
 
 let failedTests = 0;
@@ -38,7 +38,7 @@ function assert(condition, message) {
 console.log('--- 1. Build Artifacts Verification ---');
 assert(existsSync(join(DIST_DIR, 'index.html')), 'dist/index.html exists');
 const distHtml = readFileSync(join(DIST_DIR, 'index.html'), 'utf-8');
-assert(distHtml.includes('SIH26189'), 'dist/index.html includes system title SIH26189');
+assert(distHtml.includes('Head Hunters'), 'dist/index.html includes system title Head Hunters');
 assert(existsSync(join(DIST_DIR, 'assets')), 'dist/assets directory exists');
 
 // 2. Verify source code structure and routes

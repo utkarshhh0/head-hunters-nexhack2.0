@@ -72,7 +72,7 @@ export const Sidebar: React.FC = () => {
           <div>
             <div className="flex items-center gap-1.5">
               <span className="font-mono text-xs font-bold text-white tracking-wider">
-                SIH26189
+                Head Hunters
               </span>
               <span className="text-[10px] font-mono px-1 py-0.2 rounded bg-blue-950 border border-blue-800 text-blue-300">
                 R2
